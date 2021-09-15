@@ -99,4 +99,4 @@ return bindActionCreators({
     }, dispatch);
 }
 
-export default connect(mapDispatchToProps)(Home);
+export default connect(null,mapDispatchToProps)(Home);
